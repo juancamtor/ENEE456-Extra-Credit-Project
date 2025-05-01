@@ -4,7 +4,7 @@ import os
 # Key and plaintext setup
 key = ChaCha20Poly1305.generate_key() # 256-bit random key
 chacha = ChaCha20Poly1305(key)
-plaintext = b"Attack at dawn"
+plaintext = b"Hello World"
 aad = b"ENEE456" # associated data (can be empty if not needed)
 
 # AEAD ChaCha20-Poly1305 encryption
