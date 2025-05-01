@@ -5,7 +5,7 @@ import os
 # Key and plaintext setup
 key_enc = os.urandom(32) # 256-bit AES key
 key_mac = os.urandom(32) # 256-bit HMAC key
-plaintext = b"Attack at dawn" # Example plaintext (bytes)
+plaintext = b"Hello World" # Example plaintext (bytes)
 
 # Encrypt-then-MAC encryption
 iv = os.urandom(16)  # 128-bit IV for AES-CBC
