@@ -12,4 +12,4 @@ Encrypt-then-MAC: [Code/Encrypt-then-MAC/Implementation.py](Code/Encrypt-then-MA
 AEAD ChaCha20-Poly1305: [Code/AEAD ChaCha20-Poly1305/Implementation.py](Code/AEAD%20ChaCha20-Poly1305/Tampering.py).
 
 # Benchmark
-Can be find: [Code/Benchmark.py](Code/Benchmark.py).
+Can be find in: [Code/Benchmark.py](Code/Benchmark.py).
